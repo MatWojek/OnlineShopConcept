@@ -1,5 +1,5 @@
 <?php
- $conn = mysqli_connect('localhost', 'root', '', 'dane2');
+ $conn = mysqli_connect('localhost', 'root', '', 'shop');
 
  if (isset($_POST['button'])) 
  {
