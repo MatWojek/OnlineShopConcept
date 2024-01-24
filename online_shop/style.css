@@ -1,0 +1,376 @@
+@font-face {
+    font-family: Robot;
+    src: url("./fonts/Robot");
+
+    
+}
+*{  
+    margin: auto;
+    padding: 0;
+    scroll-behavior:smooth;
+    font-family: Robot; 
+}
+
+body{
+    color: white;
+    background-color: black;
+    background-image: url("./images/background/dusk-paint-holi-multicolored.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 70%;
+    background-position: center;
+    
+}
+#search{
+    display: flex;
+}
+#search input{
+    margin-left: 2em;
+    background-color: #191919;
+    width: 30em;
+    height: 2em;
+    color: white;
+}
+header{
+    box-shadow: 1px 1px #CF9FFF, -1em 0 .4em #E8E8E8;
+    scroll-behavior: smooth;
+    height: 80%;
+    width: 100%;
+    background-size:100%;
+    display:inline-flex;
+    background-color: black;
+    
+    
+}
+header img{
+    margin-left: 2em;
+    height: 100px; 
+    width: auto;
+}
+header a{
+    text-decoration: none;
+    color: #e0218a;
+}
+.effect:hover{
+    filter: saturate(100);
+}
+.icon{
+    margin: 0.5em;
+    width: auto;
+    height: 1.5em; 
+}
+nav{
+    background-color: #191919;
+    border-radius: 0 0 20px 20px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    height: 1em;
+    width: auto;
+    margin-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align:center;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    border-right: solid white 1px;
+    color: white;
+}
+nav a:hover{
+    animation-duration: 0.5s;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-weight:bolder;
+}
+article{
+    border-radius: 20px 20px 0 0;
+    height: 50em;
+    background-color: #0A0A0A;
+
+}
+#history{
+    font-size: 1em;
+    padding: 2em;
+    font-weight: 0;
+}
+#history h2{
+    font-size: 2rem;
+    margin: 10px;
+    padding: 2em;
+}
+#history p{
+    font-size: 18px;
+    text-align: left;
+    padding-left:4em;
+}
+#shop img{
+    height: 226px;
+    width: auto    
+}
+#artists{
+    overflow: scroll;
+}
+#artist img{
+    width: 300px;
+    height: 300px;
+}
+#artist{
+    padding: 40px;
+    float:left;
+    margin:10px; 
+    width: 90%;
+}
+#artist:hover{
+    padding: 25px;
+    background-color:#191919;
+    filter: grayscale(50);
+    border-radius: 10px;
+
+}
+#shop{
+    padding: 25px;
+    float:left;
+    margin:10px; 
+    width: 226px; 
+    height: 280px;
+}
+.accept_text{
+    margin: 10px;
+}
+#shop:hover{
+    padding: 25px;
+    background-color:#191919;
+    border-radius: 10%;
+    filter: grayscale(50);
+}
+#contacting a{
+    color: purple;
+    text-decoration: none;
+}
+section{
+    padding: 50px;
+    display: flex;
+}
+#sell{
+    overflow:scroll
+}
+#selling h2{
+    font-weight: bold;
+    padding-bottom: 10px
+}
+#selling{
+    padding: 20px;
+    padding-left: 30%;
+    width: 80%;
+}
+#selling p{
+    margin: 10px
+}
+#selling input{
+    background-color: #191919;
+    color: white;
+}
+#selling input:not(.checkbox,#file), button{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+}
+#logined{
+    display: flex;
+    width:100%;
+}
+#loginedd h1{
+    font-size: 50px;
+}
+#loginedd h2{
+    font-size: 30px;
+}
+#loginedd p{
+    font-size: 20px
+}
+.icon-logout{
+    width: 5em;
+    height: auto
+}
+#loginedd a{
+    padding: 2em;
+    width: 70%;
+    text-decoration: none;
+    color: #e0218a;
+    font-weight: bold;
+}
+#error{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5em;
+}
+#logined a{
+    text-decoration: none;
+    color: #e0218a;
+}
+#logined p:not(#print){
+    font-size: 40px
+}
+#selling button{
+    background-color:#ff22bd;
+    color: white;
+    border-radius: 20px;
+    border:none;
+    width: 50%;
+    font-size: 18px;
+}
+#selling button:hover{
+    animation-duration: 2s;
+    animation-name: color2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+section h5{
+    padding-bottom: 10px
+}
+#logining{
+    width: 50%;
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 10px;
+}
+#logining p{
+    margin: 10px
+}
+#logining input{
+    background-color: #191919;
+    color: white;
+}
+#logining input:not(.checkbox), button{
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+}
+
+#logining button{
+    background-color:#ff22bd;
+    color: white;
+    border-radius: 20px;
+    border:none;
+    font-size: 18px;
+}
+#logining button:hover{
+    animation-duration: 2s;
+    animation-name: color2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#asking{
+    width: 60%;
+}
+#asking p{
+    margin: 10px
+}
+#asking input, textarea, select{
+    background-color: #191919;
+    color: white;
+}
+#error{
+    width: 35em;
+    margin: 0 auto;
+}
+#selling textarea {
+    background-color: #191919;
+    color: white;
+}
+#selling textarea{
+    width: 50%;
+    height: 10em;
+    margin: 5px;
+}
+#asking input:not(.checkbox), button, select{
+    width: 70%;
+    height: 30px;
+    margin: 5px;
+}
+#asking textarea{
+    width: 70%;
+    height: 10em;
+    margin: 5px;
+}
+#asking button{
+    background-color:#ff22bd;
+    color: white;
+    border-radius: 20px;
+    border:none;
+    font-size: 18px;
+    
+}
+#asking button:hover{
+    animation-duration: 2s;
+    animation-name: color2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.star{
+    text-decoration:none;
+    color: red;
+}
+#register{
+    padding-left: 30px;
+}
+#register a{
+    background-color: #e0218a;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 90px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+#register a:hover{
+    animation-duration: 2s;
+    animation-name: color2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-weight:bolder;
+}
+#register ul{
+    margin: 10px;
+}
+#register li{
+    padding: 1em;
+}
+#article_register{
+    border-radius: 20px 20px 0 0;
+    height: 55em;
+    background-color: #0A0A0A;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    box-shadow: 1px -5px 20px #E8E8E8;
+}
+@keyframes color{
+    from{
+        border-radius: 5px;
+        background-color: #A9A9A9;
+    }
+    to{
+        color: #e0218a;
+    }
+}
+@keyframes color2 {
+    from{
+
+    }
+    to{
+        filter: saturate(10);
+        font-weight: bolder;
+    }
+    
+}
