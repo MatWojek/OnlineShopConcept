@@ -16,17 +16,17 @@ Projekt został zbudowany przy użyciu:
 ## 📸 Zrzuty ekranu
 
 1. **Strona główna**  
-   ![Main page](online_shop/main.png)
+   ![Main page](photo_website/main.png)
 2. **O nas**  
-   ![About us](online_shop/about_us.png)
+   ![About us](photo_website/about_us.png)
 3. **Kontakt**  
-   ![Contact page](online_shop/contact.png)
+   ![Contact page](photo_website/contact.png)
 4. **Sprzedaż (Sell)**  
-   ![Sell page](online_shop/sell.png)
+   ![Sell page](photo_website/sell.png)
 5. **Rejestracja**  
-   ![Register page](online_shop/register.png)
+   ![Register page](photo_website/register.png)
 6. **Logowanie**  
-   ![Login page](online_shop/login.png)
+   ![Login page](photo_website/login.png)
 
 > Powyższe pliki znajdziesz w folderze `online_shop/`. Jeśli mają inne nazwy lub ścieżki, zmień linki powyżej.
 
